@@ -1,4 +1,4 @@
-#Leccion 3
+# Leccion 3
 
 En esta lección nos apoyaremos en el código de la lección 2, con su compilación multiplataforma usando CMAKE, y aprenderemos a cargar gráficos usando SFML, y a mostrarlos en pantalla.
 

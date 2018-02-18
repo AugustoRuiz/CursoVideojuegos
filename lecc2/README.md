@@ -1,4 +1,4 @@
-#Leccion 2
+# Leccion 2
 
 En esta lección aprenderemos a compilar el código de la primera lección utilizando CMAKE, y nos servirá para compilar en Windows, Linux y OSX.
 

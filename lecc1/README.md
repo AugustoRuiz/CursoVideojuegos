@@ -1,4 +1,4 @@
-#Leccion 1
+# Leccion 1
 
 En esta lección aprenderemos a compilar manualmente un código muy sencillo que muestra una ventana usando SFML, en Windows, Linux y MacOSX.
 
