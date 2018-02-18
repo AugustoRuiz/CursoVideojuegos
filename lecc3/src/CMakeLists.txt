@@ -33,7 +33,7 @@ add_executable(${EXECUTABLE_NAME} ${sourceFiles})
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 #Find any version 2.X of SFML
 #See the FindSFML.cmake file for additional details and instructions
-set(SFML_ROOT "C:/Data/yt_dvc/ext/SFML-2.4.2")
+#If SFML is in a non-standard path, invoke with -DSFML_ROOT=/path/to/sfml
 find_package(SFML 2 REQUIRED network audio graphics window system)
 if(SFML_FOUND)
   include_directories(${SFML_INCLUDE_DIR})
