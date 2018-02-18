@@ -1,2 +1,2 @@
 # CursoVideojuegos
-Repositorio con el código del curso de desarrollo de videojuegos con el código fuente.
+Repositorio con el código fuente del curso de desarrollo de videojuegos.

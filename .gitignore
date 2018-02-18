@@ -1,0 +1,5 @@
+**/bin/
+**/build/
+!lecc1/build/build.linux.sh
+!lecc1/build/build.osx.sh
+!lecc1/build/compila.bat
