@@ -15,7 +15,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/../bin)
 # Set version information in a config.h file
 set(YT_DVC_VERSION_MAJOR 1)
 set(YT_DVC_VERSION_MINOR 0)
-set(YT_DVC_APP_NAME "Leccion 3")
+set(YT_DVC_APP_NAME "Leccion 2")
 
 configure_file(
   "${PROJECT_SOURCE_DIR}/config.h.in"

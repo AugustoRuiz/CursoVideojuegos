@@ -9,7 +9,6 @@ void game(sf::RenderWindow& App) {
   sf::Texture texture;
   if(!texture.loadFromFile("spaceInvaders.png")) {
       cout << "No pude cargar la textura 'spaceInvaders.png'" << endl;
-      isRunning = false;
       return;
   }
   // Que se vean bien los pixelacos si lo pintamos más grande.
@@ -48,9 +47,6 @@ void game(sf::RenderWindow& App) {
 int main(int argc, char* argv[]) {
   // Code adapted from the SFML 2 "Window" example.
   cout << "Version " << VERSION_MAJOR << "." << VERSION_MINOR << endl;
-
-  isRunning = true;
-
   sf::RenderWindow App(sf::VideoMode(224, 256), APP_NAME);
   game(App);
 }

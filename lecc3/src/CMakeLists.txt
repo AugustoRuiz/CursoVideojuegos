@@ -60,4 +60,4 @@ endif()
 add_custom_command(TARGET yt_dvc POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E copy_directory
                    "${PROJECT_SOURCE_DIR}/../res"
-                   "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/$<CONFIG>/")
+                   "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/")
